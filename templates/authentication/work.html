@@ -1,0 +1,27 @@
+<DOCTYPE!>
+    <html>
+        <head>
+            <title></title>
+            <style>
+                .center{
+                    text-align:center,
+                }
+            </style>
+        </head>
+        <body>
+
+            
+{% if user.is_authenticated%}
+<br><br>
+<div class="center">
+<h3>Hello: &nbsp; &nbsp; {{fname}}!</h3>
+<h3>You are successfully Logged in</h3>
+</div>
+<button type="submit"><a href="/signout"> Sign Out</a></button>
+
+
+{%endif%}
+        </body>
+
+    
+    </html
