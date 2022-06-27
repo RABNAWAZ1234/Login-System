@@ -1,5 +1,5 @@
 # Login-System
-This project is related to login system in django. I used buildin model for this system that is User model. Using this Model I created Login System
+This project is related to login system in django. I used buildin model for this system that is User model. Using this Model I created Login System. 
 The following are the main points of this project:
 1. Login into the system if you have an account
 2. If you do not have any account then firstly create a account
